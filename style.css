@@ -1,0 +1,69 @@
+body{
+	background: radial-gradient(#34cc7c, #6c6da2)
+}
+#GameWindow{
+	box-shadow:  0 0 40px white;
+	padding: 3px;
+	border:3px solid white;
+	border-radius: 10px;
+	padding-bottom: 23px;
+	height: 400px;
+	width: 400px;
+	margin: auto;
+	background-color: white;
+	background: white;
+}
+#cube1, #cube2, #cube3, #cube4, #cube5, #cube6, #cube7, #cube8, #cube9, #cube10, #cube11, #cube12, #cube13, #cube14, #cube15, #cube16, #cube17, #cube18, #cube19, #cube20, #cube21, #cube22, #cube23, #cube24, #cube25{
+width: 80px;
+height: 80px;
+display: inline-block;
+border: 3px solid white;
+border-bottom: 1px;
+border-radius: 7px;
+box-sizing: border-box;
+}
+#Winners{
+}
+.hide {
+  display: none!important;
+}
+.off{
+background-color: #191970;
+background: radial-gradient(#a1e5ba, #a8debc)
+}
+.on{
+background: radial-gradient(#ffe27c, #ffd046);
+}
+.btn{
+	font-family: 'Pacifico', cursive;
+	font-size: 23px;
+	height: 50px;
+	border:3px solid;
+	border-radius: 7px;
+	border-color: #e3f7e8;
+	background: radial-gradient(#85bfc0, #3c9fa2);
+	color: #066b6f;
+}
+.wins{
+	font-family: 'Pacifico', cursive;
+	color: #ffd046;
+	font-size: 19px;
+}
+.counts{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	margin: auto;
+	width: 300px;
+	border:3px solid;
+	border-radius: 7px;
+	border-color: #e3f7e8;
+	height: 70px;
+}
+.des{
+	font-family: 'Raleway', sans-serif;
+
+	color: #34cc7c;
+
+}
